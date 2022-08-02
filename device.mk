@@ -99,6 +99,7 @@ TW_NO_SCREEN_BLANK := true
 TW_HAS_EDL_MODE := true
 TW_EXCLUDE_APEX := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/msm-therm/temp"
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 TW_LOAD_VENDOR_MODULES := "touchscreen.ko aw8697.ko adsp_loader_dlkm.ko oplus_chg.ko"
 
